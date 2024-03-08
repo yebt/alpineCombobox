@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@modules/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@resources/*": ["src/resources/*"],
       "@styles/*": ["src/styles/*"],
-      "@resources/*": ["src/resources/*"]
+      "@types/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"],
     }
   }
 }
